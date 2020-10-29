@@ -21,7 +21,7 @@ lazy_static = "1.3"
 winit = { git = "https://github.com/Kaiser1989/winit"}
 
 [target.'cfg(target_os = "android")'.dependencies]
-ndk-glue = { git = "https://github.com/Kaiser1989/android-ndk-rs" }
+ndk-glue = "0.2.1"
 glutin_egl_sys = { version = "0.1.4", path = "../glutin_egl_sys" }
 parking_lot = "0.10"
 
